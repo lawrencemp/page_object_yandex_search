@@ -1,8 +1,9 @@
+import allure
+
 from pages.images_page import ImagesPage
 from pages.main_page import MainPage
 from pages.search_results_page import SearchResultsPage
 from utils.urls import *
-import allure
 
 
 def test_search_tenzor(browser):
@@ -71,4 +72,3 @@ def test_yandex_images(browser):
 
     with allure.step("12. Проверить, что картинка осталась из шага 8"):
         images_page.should_be_opened_same_image(first_image_link)
-

@@ -38,4 +38,3 @@ class ImagesPage(BasePage):
 
     def should_be_opened_image_modal(self):
         assert self._is_element_present(*ImagesPageLocators.MODAL_WITH_IMAGE), "Картинка не открылась на весь экран"
-
