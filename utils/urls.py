@@ -1,4 +1,4 @@
 TENZOR_URL = "https://tensor.ru/"
-SEARCH_URL = "https://ya.ru/"
-SEARCH_RESULTS_URL = "https://yandex.ru/search/"
-IMAGES_URL = "https://yandex.ru/images/"
+YANDEX_SEARCH_URL = "https://ya.ru/"
+YANDEX_SEARCH_RESULTS_URL = "https://yandex.ru/search/"
+YANDEX_IMAGES_URL = "https://yandex.ru/images/"
