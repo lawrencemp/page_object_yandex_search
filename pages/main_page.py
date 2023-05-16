@@ -32,5 +32,3 @@ class MainPage(BasePage):
     def should_be_all_services_button(self):
         self._click_on_element(*MainPageLocators.SEARCH_FIELD)
         assert self._is_element_present(*MainPageLocators.ALL_SERVICES_BUTTON)
-
-
